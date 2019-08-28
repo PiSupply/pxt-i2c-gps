@@ -18,7 +18,7 @@
 */
 
 
-//% weight=10 color=#8bc34a icon="\uf7a2"
+//% weight=11 color=#8bc34a icon="\uf0ac"
 
 
 namespace i2cgps {
