@@ -1,6 +1,6 @@
 {
     "name": "pxt-i2c-gps",
-    "version": "0.0.01",
+    "version": "0.0.2",
     "description": "Package for Pi Supply I2C GPS Module",
     "license": "GPL V3",
     "dependencies": {
