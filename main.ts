@@ -31,14 +31,14 @@ namespace i2cgps {
         /**
          * Return Latitude
          */
-         pins.i2cWriteNumber(
-          66,
-          1,
-          NumberFormat.Int8LE,
-          false
-          )
-          let lat = pins.i2cReadNumber(66, NumberFormat.Float32LE, false)
-          return lat;
+        pins.i2cWriteNumber(
+            66,
+            1,
+            NumberFormat.Int8LE,
+            false
+        )
+        let lat = pins.i2cReadNumber(66, NumberFormat.Float32LE, false)
+        return lat;
     }
 
     //%blockId="i2cgps_longitude"
@@ -47,14 +47,14 @@ namespace i2cgps {
         /**
          * Return Longitude
          */
-         pins.i2cWriteNumber(
-          66,
-          2,
-          NumberFormat.Int8LE,
-          false
-          )
-          let lat = pins.i2cReadNumber(66, NumberFormat.Float32LE, false)
-          return lat;
+        pins.i2cWriteNumber(
+            66,
+            2,
+            NumberFormat.Int8LE,
+            false
+        )
+        let lat = pins.i2cReadNumber(66, NumberFormat.Float32LE, false)
+        return lat;
 
 
     }
@@ -65,14 +65,14 @@ namespace i2cgps {
         /**
          * Return Altitude
          */
-         pins.i2cWriteNumber(
-          66,
-          3,
-          NumberFormat.Int8LE,
-          false
-          )
-          let lat = pins.i2cReadNumber(66, NumberFormat.Float32LE, false)
-          return lat;
+        pins.i2cWriteNumber(
+            66,
+            3,
+            NumberFormat.Int8LE,
+            false
+        )
+        let lat = pins.i2cReadNumber(66, NumberFormat.Float32LE, false)
+        return lat;
 
 
     }
